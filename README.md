@@ -2,7 +2,7 @@
 
 A light Neovim colorscheme inspired by Helix's flatwhite style.
 
-![helix-flatwhite](./Screenshot_2026-08-27_08-52-00.png)
+![helix-flatwhite](./example.png)
 
 ## Installation
 
@@ -45,4 +45,5 @@ vim.cmd.colorscheme("helix-flatwhite")
 ## License
 
 [MIT](./LICENSE)
+
 # helix-flatwhite
