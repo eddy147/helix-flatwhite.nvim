@@ -171,6 +171,7 @@ local hl = {
   -- Cursor Highlights
   Cursor = { fg = p.base7, bg = p.base1 }, -- Dark brown/gray block with light text
   TermCursor = { fg = p.base7, bg = p.base1 },
+  MatchParen = { fg = p.white, bg = p.teal_text_sec, bold = true },
   CursorColumn = { bg = p.base6 },
   CursorLine = { bg = p.base6 },
 
