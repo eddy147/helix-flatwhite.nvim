@@ -98,8 +98,8 @@ local hl = {
 	["@operator"] = { fg = p.black_txt },
 	["@module"] = { fg = p.teal_text, bg = p.teal_bg },
 	["@attribute"] = { fg = p.blue_text, bg = p.blue_bg },
-	["@punctuation.bracket"] = { fg = p.black_txt },
-	["@punctuation.delimiter"] = { fg = p.black_txt },
+	["@punctuation.bracket"] = { bold = true },
+	["@punctuation.delimiter"] = { fg = p.base1 },
 
 	-- LSP Semantic Token Support
 	["@lsp.type.variable"] = { fg = p.base1 },
