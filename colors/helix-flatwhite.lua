@@ -93,7 +93,7 @@ local hl = {
 	["@type"] = { fg = p.base1 },
 	["@type.builtin"] = { fg = p.base1 },
 	["@function"] = { fg = p.base1, bold = true },
-	["@function.call"] = { fg = p.base1 },
+	["@function.call"] = { fg = p.base1, italic = true },
 	["@constructor"] = { fg = p.base1 },
 	["@operator"] = { fg = p.black_txt },
 	["@module"] = { fg = p.teal_text, bg = p.teal_bg },
