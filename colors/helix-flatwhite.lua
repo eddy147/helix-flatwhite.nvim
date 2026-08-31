@@ -110,6 +110,7 @@ local hl = {
 	["@lsp.type.parameter"] = { fg = p.blue_text, bg = p.blue_bg },
 	["@lsp.type.keyword"] = { fg = p.purple_text, bg = p.purple_bg },
 	["@lsp.type.namespace"] = { fg = p.teal_text, bg = p.teal_bg },
+	["@lsp.type.operator"] = { fg = p.black_text, bold = true },
 
 	-- Diagnostics
 	DiagnosticError = { fg = p.diff_delete },
